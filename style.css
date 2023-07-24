@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Hanken+Grotesk:ital,wght@0,300;1,100&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Overpass:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:wght@700&family=Hanken+Grotesk:ital,wght@0,300;1,100&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Overpass:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container {
+    margin: 20% 15px 1px 15px;
+    display: flex;
+    flex-direction: column;
+}
+.fisrtCard {
+    color: white;
+    background-color: hsl(31, 77%, 52%);
+    font-family: Big Shoulders Display;
+    padding: 10%;
+    border-radius: 7px 7px 0 0;
+}
+.secondCard {
+    color: white;
+    background-color: hsl(184, 100%, 22%);
+    font-family: Big Shoulders Display;
+    padding: 10%;
+}
+.thirdCard {
+    color: white;
+    background-color: hsl(179, 100%, 13%);
+    font-family: Big Shoulders Display;
+    padding: 10%;
+    border-radius: 0 0 7px 7px;
+}
+p {
+    line-height: 1.7em;
+    font-family: Lexend Deca;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 16px;
+}
+button {
+    background-color: white;
+    border-radius: 20px;
+    height: 39px;
+    width: 55%;
+    border: none;
+    font-family: Lexend Deca;
+}
+button:hover {
+    background-color: rgba(169, 169, 169, 0.268);
+}
+.btnColor1 {
+    color: hsl(31, 77%, 52%);
+}
+.btnColor2 {
+    color: hsl(184, 100%, 22%);
+}
+.btnColor3 {
+    color: hsl(179, 100%, 13%);
+}

@@ -49,11 +49,47 @@ button:hover {
     background-color: rgba(169, 169, 169, 0.268);
 }
 .btnColor1 {
-    color: hsl(31, 77%, 52%);
+    color: hsla(31, 84%, 66%, 0.738);
 }
 .btnColor2 {
     color: hsl(184, 100%, 22%);
 }
 .btnColor3 {
     color: hsl(179, 100%, 13%);
+}
+.attribution {
+    margin-top: 1em;
+}
+
+/* Inicio padrão Desktop*/
+@media screen and (min-width: 600px) {
+    body {
+        margin: 50px;
+    }
+    .container {
+        margin: 50px;
+        flex-direction:row;
+        margin-bottom: 1em;
+    }
+    .fisrtCard {
+        padding: 4%;
+        border-radius: 7px 0 0 7px;
+        max-width: 310px;
+    }
+    .secondCard {
+        padding: 4%;
+        max-width: 310px;
+    }
+    .thirdCard {
+        padding: 4%;
+        border-radius: 0 7px 7px 0;
+        max-width: 310px;
+    }
+    button {
+        margin-top: 60px;
+        margin-bottom: 16px;
+    }
+    .attribution {
+        margin-top: 0.5px;
+    }
 }
